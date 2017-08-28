@@ -15,6 +15,6 @@ import retrofit2.http.Path;
         Call <List<JsonResponse>>getDeveloperDetails();
 
     @GET("posts/{id}comments")
-    Call<List<JsonResponse>> getDetails(@Path("id")  int id);
+    Call<List<JsonResponse>> getDetails(@Path("id")  String id);
     }
 

@@ -21,7 +21,7 @@ public class Detail extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
 
         id=getIntent().getStringExtra("id");
-//        int inn=Integer.valueOf(id);
+       // int inn=Integer.valueOf(id);
 
         if (NetworkUtils.isNetworkAvailable(Detail.this))
             getDetails();

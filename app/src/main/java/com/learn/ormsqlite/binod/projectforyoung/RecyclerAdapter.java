@@ -41,7 +41,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
         holder.root.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               context.startActivity(new Intent(context,Detail.class).putExtra("id", jsonResponses.get(position).getId()));
+               context.startActivity(new Intent(context,Detail.class).putExtra("id", jsonResponses.get(position).getId().toString()));
                 //Toast.makeText(context, "Item id is:"+jsonResponses.get(position).getId().toString(), Toast.LENGTH_SHORT).show();
             }
         });
