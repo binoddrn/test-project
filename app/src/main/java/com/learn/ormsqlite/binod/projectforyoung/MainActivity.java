@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         nam=(TextView)findViewById(R.id.name);
         emil=(TextView)findViewById(R.id.email);
+
         reclyclerview=(RecyclerView)findViewById(R.id.recyclerview);
         RecyclerView.LayoutManager layoutManager=new LinearLayoutManager(this);
         reclyclerview.setLayoutManager(layoutManager);

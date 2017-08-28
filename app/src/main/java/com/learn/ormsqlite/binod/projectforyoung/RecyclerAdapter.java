@@ -45,8 +45,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
                 //Toast.makeText(context, "Item id is:"+jsonResponses.get(position).getId().toString(), Toast.LENGTH_SHORT).show();
             }
         });
-
-
     }
 
     @Override
